@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333333
+}
+.bs-text-gray {
+    color: #828282;
+
+}
+.bs-bg-green {
+    background-color: #27AE60;
+}
+.bs-text-green {
+    color: #27AE60;
+}
+.bs-bg-gray {
+    background-color: #F5F5F5;
+}
+.bs-dark-orange-bg {
+    background-color:  #ff5c00;
+}
+.slide-bg {
+    background: #EBFAEB;
+
+}
+
+/* hero slide */
+.hero-slide .slick-dots {
+	position: absolute;
+	top: 50%;
+	right: 3%;
+	transform: translateY(-50%);
+}
+.hero-slide ul.slick-dots button {
+	text-indent: -99999px;
+	background-color: #d1d1d1;
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+}
+.hero-slide ul.slick-dots li {
+	border-width: 1px;
+	height: 15px;
+	width: 15px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	padding: 2px;
+}
+.hero-slide ul.slick-dots li.slick-active {
+    border-color: #ff5c00;
+}
+.hero-slide ul.slick-dots li.slick-active button {
+    @apply bs-dark-orange-bg;
+}
+
